@@ -1,0 +1,30 @@
+{
+  "name": "beach-monitoring-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "module-alias": "^2.2.3",
+    "yarn": "^1.22.22"
+  },
+  "devDependencies": {
+    "@types/module-alias": "^2.0.4",
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebagabe/Beach-Monitoring-API.git"
+  },
+  "author": "gabriel alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebagabe/Beach-Monitoring-API/issues"
+  },
+  "homepage": "https://github.com/ebagabe/Beach-Monitoring-API#readme"
+}
